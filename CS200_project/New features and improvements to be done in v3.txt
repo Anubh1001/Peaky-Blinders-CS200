@@ -1,0 +1,17 @@
+Features added:
+1.)View matches button functionality added so user can see people travelling with him on same date within a +-30 min window.
+2.)Delete button functionality added so user can delete his entry.
+3.)Update button added so user can update his entry
+4.)New field "ID" added which is automatically assigned to user on adding a record. Using the assigned ID the user can easily update or delete 
+his entry in future.
+5.) Date and Time picker boxes added to select date and time.
+6.)Appropriate alerts displayed when any of above action is done.
+7.) Color of "ID" label set to cyan so it is visible properly against the background.  
+
+Improvements to be done:
+1.) Make a listview for selecting "Destination" instead of typing it.
+2.) Expand food section.
+3.) Give better names to food and transport section if possible.
+4.) Currently "exit" button on screen 5 takes user back to home but actually it should exit the application. Make this change.
+5.) Check for duplicattes when new entry is made.(optional)
+6.) Feature to make and join groups that will go together or order food together.(optional) 
