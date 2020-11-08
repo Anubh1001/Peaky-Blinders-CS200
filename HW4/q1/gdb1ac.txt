@@ -1,0 +1,65 @@
+Breakpoint 1 at 0x401426: file program1.cpp, line 7.
+Starting program: C:\Users\Asus\Desktop/A.exe 
+[New Thread 1984.0x5dac]
+[New Thread 1984.0x42d0]
+[New Thread 1984.0x5a9c]
+[New Thread 1984.0x3380]
+
+
+Breakpoint 1, main () at program1.cpp:7
+7	 cout << "Program is starting.\n";
+$1 = 4201120
+$2 = 6422352
+No symbol "answer" in current context.
+No symbol "y" in current context.
+
+
+9	 int X = 10;
+10	 cout << "In the middle of the program.\n";
+$3 = 10
+$4 = 6422352
+No symbol "answer" in current context.
+No symbol "y" in current context.
+
+
+11	 result = func(X);
+func (y=10) at program1.cpp:17
+17	 cout << "In the function.\n";
+$5 = 30
+No symbol "result" in current context.
+$6 = 0
+$7 = 10
+
+
+18	 answer = y;
+19	 answer += X;
+20	 int X = 20;
+21	 cout << "In the middle of the function.\n";
+$8 = 20
+No symbol "result" in current context.
+$9 = 15
+$10 = 10
+
+
+22	 answer += X;
+23	 cout << "The function is exiting.\n";
+$11 = 20
+No symbol "result" in current context.
+$12 = 35
+$13 = 10
+
+
+24	 return answer;
+25	 }_fu1___ZSt4cout () at program1.cpp:12
+12	 cout << "The result is " << result << ".\n";
+$14 = 10
+$15 = 35
+No symbol "answer" in current context.
+No symbol "y" in current context.
+
+
+A debugging session is active.
+
+	Inferior 1 [process 1984] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
